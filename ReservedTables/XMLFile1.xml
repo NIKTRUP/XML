@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Restaurant>
+	<clients>
+		<client id="1">
+			<name>Gregory House</name>
+			<tableNumber>1</tableNumber>
+			<reservationTime>14:00-15:00</reservationTime>
+			<information>
+				<age>40</age>
+				<phoneNumber>89196753596</phoneNumber>
+			</information>
+		</client>
+		<client id="2">
+			<name>Grigory Bita</name>
+			<tableNumber>2</tableNumber>
+			<reservationTime>13:00-14:00</reservationTime>
+			<information>
+				<age>25</age>
+				<phoneNumber>89476743596</phoneNumber>
+			</information>
+		</client>
+		<client id="3">
+			<name>Natasha Morskaya Pihota</name>
+			<tableNumber>3</tableNumber>
+			<reservationTime>12:00-13:00</reservationTime>
+			<information>
+				<age>34</age>
+				<phoneNumber>89986742696</phoneNumber>
+			</information>
+		</client>
+		<client id="4">
+			<name>Nikita Gvozd</name>
+			<tableNumber>4</tableNumber>
+			<reservationTime>11:00-12:00</reservationTime>
+			<information>
+				<age>18</age>
+				<phoneNumber>89471233096</phoneNumber>
+			</information>
+		</client>
+	</clients>
+	<waiters>
+		<waiter number="1">
+			<name>Dina Latypova</name>
+			<waiterInformation>
+				<age>23</age>
+				<email>diana.lat@yandex.ru</email>
+				<TablesServed>1,2</TablesServed>
+			</waiterInformation>
+		</waiter>
+		<waiter number="2">
+			<name>Albina Kit</name>
+			<waiterInformation>
+				<age>27</age>
+				<email>albina.kit@yandex.ru</email>
+				<TablesServed>3,4</TablesServed>
+			</waiterInformation>
+		</waiter>
+	</waiters>
+</Restaurant>

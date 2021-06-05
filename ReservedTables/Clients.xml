@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<ArrayOfClient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Client>
+    <id>1</id>
+    <fullName>Теп</fullName>
+    <tableNumber>13</tableNumber>
+    <reservationTime>12:14</reservationTime>
+    <age>34</age>
+    <phoneNumber>34646346346</phoneNumber>
+  </Client>
+  <Client>
+    <id>2</id>
+    <fullName>Ник</fullName>
+    <tableNumber>14</tableNumber>
+    <reservationTime>14:16</reservationTime>
+    <age>53</age>
+    <phoneNumber>63474574574</phoneNumber>
+  </Client>
+</ArrayOfClient>
