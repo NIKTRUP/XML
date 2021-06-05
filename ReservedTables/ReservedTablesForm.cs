@@ -71,7 +71,7 @@ namespace ReservedTables
                 using (FileStream stream = new FileStream(path, FileMode.OpenOrCreate))
                 {
                     Client[] clients = (Client[])formatter.Deserialize(stream);
-                    foreach (Client client in clients)//заполняем таблицу по рядам согласно значению
+                    foreach (Client client in clients)
                     {
                         object[] rowElements = new object[table.Columns.Count];
                         rowElements[0] = client.Id;
@@ -84,7 +84,7 @@ namespace ReservedTables
                     }
                 }
                 dataGridView.Columns.Clear();
-                dataGridView.DataSource = table;//передаем заполненную таблицу
+                dataGridView.DataSource = table;
             }
             catch (Exception ex)
             {
@@ -153,6 +153,7 @@ namespace ReservedTables
             }
             return table;
         }
+        #region var
         /*
         private void открытьToolStripMenuItem1_Click(object sender, EventArgs e)
         {
@@ -194,6 +195,7 @@ namespace ReservedTables
 
         }
         */
+        #endregion
         private void deleteTextBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter)
